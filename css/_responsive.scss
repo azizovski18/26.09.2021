@@ -1,0 +1,305 @@
+@media (max-width: 768px) {
+    .del {
+        display: none;
+    }
+
+    
+
+    .header {
+        background-color: gray;
+
+        img {
+            width: 40%;
+        }
+
+        .icon-box {
+            text-align: end;
+
+            i{
+                color: rgb(194, 194, 2);
+            }
+        }
+    }
+
+    // HEADER END
+
+    #section1 {
+        padding: 57% 0;
+
+        .text-box {
+            h3 {
+                font-size: 25px;
+                color: rgb(98, 97, 97);
+
+                strong {
+                    color: #000;
+                }
+            }
+
+            p {
+                color: rgb(103, 103, 103);
+            }
+
+            button {
+                &.btn-1 {
+                    padding: 10px 28px;
+                }
+
+                &.btn-2 {
+                    padding: 10px 28px;
+                }
+            }
+        }
+
+
+    }
+
+    // SECTION 1 END
+
+    #section2 {
+        padding: 20% 5%;
+
+        .explore-box {
+            padding: 7% 0;
+        }
+    }
+
+    // SECTION 2 END
+
+    #section3 {
+        padding: 50% 0;
+
+        .on-page {
+
+            .pic-box {
+
+                img {
+                    width: 15%;
+                }
+
+                p {
+                    padding: 0%;
+                }
+
+                .text {
+                    font-size: 15px;
+                    padding: 0% 0%;
+                }
+            }
+
+
+        }
+    }
+
+    // SECTION 3 END
+
+
+    #section4{
+        padding: 25% 5%;
+    }
+
+    // SECTION 4 END
+
+    #section5{
+        padding: 20% 5%;
+        h3{
+            font-size: 20px;
+            padding: 0%;
+        }
+    }
+
+    // SECTION 5 END
+
+    #section6{
+        padding: 20% 5%;
+
+        .price-box{
+            .boxes{
+                .top{
+                    padding: 0% 4%;
+
+                    .left{
+                        text-align: end;
+                        p{
+                            font-size: 17px;
+                        }
+                    }
+                    .right{
+                        padding-top: 15%;
+                        text-align: end;
+                        span{
+                            padding-top: 10%;
+                            strong{
+                                font-size: 30px;
+                            }
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+
+    // SECTION 6 END
+
+    #section7{
+        padding: 30% 0;
+
+        .on-box{
+            .in{
+                .texts{
+                    h3{
+                        font-size: 15px;
+                    }
+
+                    p{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    // SECTION 7 END
+
+    #section8{
+        padding: 15% 8%;
+
+        h3{
+            font-size: 35px;
+        }
+            .toy-box{
+                padding-top: 15%;
+
+                .slider-box{
+                    span{
+                        margin: 0% 4px;
+                    }
+                }
+
+                .box{
+                    .text-box{
+                        padding: 10% 0;
+
+                        h2{
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+    }
+
+    // SECTION 8 END
+
+    #section9{
+        padding: 20% 0%;
+        h3{
+            font-size: 35px;
+        }
+
+        .boxes{
+            .box{
+                .data-box{
+                    span{
+                        font-size: 10px;
+                    }
+                }
+
+                .text-box{
+
+                    h3{
+                        font-size: 15px;
+                    }
+                    p{
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    // SECTION 9 END
+
+    #section10{
+        padding: 15% 0;
+        h3{
+            font-size: 25px;
+        }
+
+        .company{
+            img{
+                width: 30%;
+            }
+        }
+    }
+
+    // SECTION 10 END
+
+    #section11{
+
+        .right{
+            iframe{
+                height: 200px;
+            }
+        }
+        .left{
+            padding: 5% 5%;
+            h3{
+                font-size: 25px;
+            }
+
+            .about{
+                p{
+                    font-size: 14px;
+                    i{
+                        font-size: 12px;
+                    }
+                }
+            }
+
+            .input-box{
+                input{
+                    width: 100%;
+                }
+
+                textarea{
+                    width: 100%;
+                    height: 100px;
+                }
+
+                button{
+                    padding: 6px 40px;
+
+                    a{
+                        font-size: 14px;
+                    }
+                }
+            }
+
+            
+        }
+    }
+
+    // SECTION 11 END
+
+    #footer{
+
+        .left{
+            text-align: center;
+            p{
+                width: 100%;
+                &::after{
+                    display: none;
+                }
+            }
+        }
+        .right{
+            text-align: center;
+        }
+    }
+
+
+
+
+    
+}
